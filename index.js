@@ -37,15 +37,16 @@ document.querySelector('.buttons').onclick = (event) => {
     if (arrayNumber.includes(key)) {
         if (secNum === '' && action === '') {
             firstNum += key
-            screen.value += firstNum
+            screen.value += key
+
         } else if (firstNum !== '' && secNum !== '' && equal) {
             secNum = ''
             secNum += key
             equal = false
-            screen.value += secNum
+            screen.value += key
         } else {
             secNum += key
-            screen.value += secNum
+            screen.value += key
         }
         return;
     }
