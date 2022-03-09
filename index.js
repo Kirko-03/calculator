@@ -52,7 +52,6 @@ document.querySelector('.buttons').onclick = (event) => {
     }
     if (arrayAction.includes(key)) {
         action = key
-        console.log(firstNum, secNum, action)
         screen.value += action
     }
 
