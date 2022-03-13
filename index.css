@@ -30,14 +30,17 @@ ul li{
     font-size: 1.0em;
 }
 
-input[type='text'] {
+.panelResult {
     background: #51b7e2;
     border: none;
-
+    height: 5rem;
     width: 87%;
     text-align: right;
     border-radius: 20px;
-
+    overflow: auto;
+   
+    
+    
     font-size: 4rem;
     color: #fcfafb;
 }
